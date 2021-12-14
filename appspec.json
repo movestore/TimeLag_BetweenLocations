@@ -47,8 +47,9 @@
   },
   "language": "eng",
   "keywords": [
-    "speed",
-    "velocity"
+    "timelag",
+    "time",
+    "duration"
   ],
   "people": [
     {
@@ -63,6 +64,6 @@
     }
   ],
   "documentation" : {
-    "url": "https://github.com/movestore/......../README.md"
+    "url": "https://github.com/movestore/TimeLag_BetweenLocations/blob/master/README.md"
   }
 }

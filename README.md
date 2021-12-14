@@ -2,7 +2,7 @@
 
 MoveApps
 
-Github repository: github.com/movestore/..................
+Github repository: https://github.com/movestore/TimeLag_BetweenLocations
 
 ## Description
 Calculation of the time lag between consecutive locations.
