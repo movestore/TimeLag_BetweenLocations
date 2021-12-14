@@ -1,0 +1,68 @@
+{
+  "settings":[
+    {
+  "id": "unitsSEL",
+  "name": "Select units",
+  "description": "Choose units to calculate the time lag between locations",
+  "type": "RADIOBUTTONS",
+  "defaultValue": "mins",
+  "options": [{
+      "value": "secs",
+      "displayText": "Seconds"
+    },
+    {
+      "value": "mins",
+      "displayText": "Minutes"
+    },
+    {
+      "value": "hours",
+      "displayText": "Hours"
+    },
+    {
+      "value": "days",
+      "displayText": "Days"
+    },
+    {
+      "value": "weeks",
+      "displayText": "Weeks"
+    }]
+}
+],
+  "dependencies": {
+    "R": [
+      {
+        "name": "move"
+      },
+      {
+        "name": "ggplot2"
+      },
+      {
+        "name": "units"
+      }
+    ]
+  },
+  "createsArtifacts": true,
+  "license": {
+    "key": "MIT"
+  },
+  "language": "eng",
+  "keywords": [
+    "speed",
+    "velocity"
+  ],
+  "people": [
+    {
+      "firstName": "Anne",
+      "middleInitials": "K",
+      "lastName": "Scharf",
+      "email": "ascharf@ab.mpg.de",
+      "roles": ["author", "creator"],
+      "orcid": "0000-0002-3357-8533",
+      "affiliation": "Max-Planck-Institute of Animal Behavior",
+      "affiliationRor": "https://ror.org/026stee22"
+    }
+  ],
+  "documentation" : {
+    "url": "https://github.com/movestore/......../README.md"
+  }
+}
