@@ -10,7 +10,9 @@ Calculation of the time lag between consecutive locations.
 ## Documentation
 This App calculates the time lag between each consecutive locations. This measurement is a segment characteristic, and will be assigned to the first location of each segment. Therefore the time lag of the last location of the track will be set to NA.
 
-A histogram of the time lag distribution of all individuals and per individual is automatically created and can be downloaded in the output as a pdf
+A histogram of the time lag distribution of all individuals and per individual is automatically created and can be downloaded in the output as a pdf.
+
+A column named _**timelag**_ will be appended to the dataset that is returned for further use in next Apps.
 
 ### Input data
 moveStack in Movebank format
