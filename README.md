@@ -23,8 +23,8 @@ moveStack in Movebank format
 ### Artefacts
 `timelag_histogram.pdf`: PDF with histograms of the time lags per individual
 
-### Parameters
-`units`: Choose units in which the time lag between locations should be calculated. Available units are: `seconds`, `minutes`, `hours` & `weeks`. Default is `minutes`.
+### Settings
+**Select units (`unitsSEL`):** Choose units in which the time lag between locations should be calculated. Available units are: `seconds`, `minutes`, `hours` & `weeks`. Default is `minutes`.
 
 ### Null or error handling
 **Data**: The full input dataset with the addition of time lag is returned for further use in a next App and cannot be empty.
