@@ -1,13 +1,14 @@
 {
+  "version":"1.1"
   "settings":[
     {
-  "id": "unitsSEL",
-  "name": "Select units",
+  "id": "units",
+  "name": "Units",
   "description": "Choose units to calculate the time lag between locations",
   "type": "RADIOBUTTONS",
-  "defaultValue": "mins",
+  "defaultValue": "min",
   "options": [{
-      "value": "secs",
+      "value": "s",
       "displayText": "Seconds"
     },
     {
@@ -15,32 +16,37 @@
       "displayText": "Minutes"
     },
     {
-      "value": "hours",
+      "value": "h",
       "displayText": "Hours"
     },
     {
-      "value": "days",
+      "value": "d",
       "displayText": "Days"
     },
     {
       "value": "weeks",
       "displayText": "Weeks"
+    },
+    {
+      "value": "month",
+      "displayText": "Month"
+    },
+    {
+      "value": "years",
+      "displayText": "Years"
     }]
 }
 ],
   "dependencies": {
     "R": [
       {
-        "name": "move"
+        "name": "move2"
       },
       {
         "name": "ggplot2"
       },
       {
         "name": "units"
-      },
-      {
-        "name": "ggforce"
       }
     ]
   },
@@ -66,8 +72,5 @@
       "affiliation": "Max-Planck-Institute of Animal Behavior",
       "affiliationRor": "https://ror.org/026stee22"
     }
-  ],
-  "documentation" : {
-    "url": "https://github.com/movestore/TimeLag_BetweenLocations/blob/master/README.md"
-  }
+  ]
 }
