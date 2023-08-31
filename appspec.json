@@ -1,12 +1,12 @@
 {
-  "version":"1.1"
+  "version":"1.1",
   "settings":[
     {
   "id": "units",
   "name": "Units",
   "description": "Choose units to calculate the time lag between locations",
   "type": "RADIOBUTTONS",
-  "defaultValue": "min",
+  "defaultValue": "mins",
   "options": [{
       "value": "s",
       "displayText": "Seconds"
