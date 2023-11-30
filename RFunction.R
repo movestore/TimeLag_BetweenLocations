@@ -1,4 +1,4 @@
-library('move')
+library('move2')
 library("ggplot2")
 library("units")
 

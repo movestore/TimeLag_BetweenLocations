@@ -15,10 +15,10 @@ A histogram of the time lag distribution of all individuals and per individual i
 A column named _**timelag**_ will be appended to the dataset that is returned for further use in next Apps. This column also contains the **unit** information in which the time lag was calculated.
 
 ### Input data
-moveStack in Movebank format
+move2_loc
 
 ### Output data
-moveStack in Movebank format
+move2_loc
 
 ### Artefacts
 `timelag_histogram.pdf`: PDF with histograms of the time lags per individual
