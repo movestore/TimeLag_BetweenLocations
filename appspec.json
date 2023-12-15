@@ -6,7 +6,7 @@
   "name": "Units",
   "description": "Choose units to calculate the time lag between locations",
   "type": "RADIOBUTTONS",
-  "defaultValue": "mins",
+  "defaultValue": "min",
   "options": [{
       "value": "s",
       "displayText": "Seconds"
