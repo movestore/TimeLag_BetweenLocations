@@ -1,50 +1,30 @@
 {
-  "settings":[
+  "version": "1.2",
+  "settings": [
     {
-  "id": "unitsSEL",
-  "name": "Select units",
-  "description": "Choose units to calculate the time lag between locations",
-  "type": "RADIOBUTTONS",
-  "defaultValue": "mins",
-  "options": [{
-      "value": "secs",
-      "displayText": "Seconds"
-    },
-    {
-      "value": "mins",
-      "displayText": "Minutes"
-    },
-    {
-      "value": "hours",
-      "displayText": "Hours"
-    },
-    {
-      "value": "days",
-      "displayText": "Days"
-    },
-    {
-      "value": "weeks",
-      "displayText": "Weeks"
-    }]
-}
-],
+      "id": "units",
+      "name": "Units",
+      "description": "Choose the unit in which the time lag between consecutive locations and the median time lag per track are calculated.",
+      "defaultValue": "min",
+      "type": "RADIOBUTTONS",
+      "options": [
+        { "value": "s", "displayText": "Seconds" },
+        { "value": "min", "displayText": "Minutes" },
+        { "value": "h", "displayText": "Hours" },
+        { "value": "d", "displayText": "Days" },
+        { "value": "weeks", "displayText": "Weeks" },
+        { "value": "month", "displayText": "Month" },
+        { "value": "years", "displayText": "Years" }
+      ]
+    }
+  ],
   "dependencies": {
     "R": [
-      {
-        "name": "move"
-      },
-      {
-        "name": "ggplot2"
-      },
-      {
-        "name": "units"
-      },
-      {
-        "name": "ggforce"
-      }
+      { "name": "move2" },
+      { "name": "ggplot2" },
+      { "name": "units" }
     ]
   },
-  "createsArtifacts": true,
   "license": {
     "key": "MIT"
   },
@@ -53,7 +33,9 @@
     "timelag",
     "time",
     "duration",
-    "interval"
+    "interval",
+    "median",
+    "histogram"
   ],
   "people": [
     {
@@ -65,9 +47,23 @@
       "orcid": "0000-0002-3357-8533",
       "affiliation": "Max-Planck-Institute of Animal Behavior",
       "affiliationRor": "https://ror.org/026stee22"
+    },
+    {
+      "firstName": "Nafiseh",
+      "middleInitials": null,
+      "lastName": "Tavakol",
+      "email": "ntavakol@ab.mpg.de",
+      "roles": ["contributor"],
+      "orcid": "0000-0003-3674-4784",
+      "affiliation": "Max-Planck-Institute of Animal Behavior",
+      "affiliationRor": "https://ror.org/026stee22"
     }
   ],
-  "documentation" : {
-    "url": "https://github.com/movestore/TimeLag_BetweenLocations/blob/master/README.md"
-  }
+  "references": [
+    {
+      "type": "Requires",
+      "note": "Kranstauber B, Safi K, Scharf AK (2024). move2: R package for processing movement data. Methods in Ecology and Evolution. doi:10.1111/2041-210X.14383",
+      "url": "https://doi.org/10.1111/2041-210X.14383"
+    }
+  ]
 }
